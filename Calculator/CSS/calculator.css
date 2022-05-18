@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.container input {
+    width: 36.5%;
+    padding: 10px 0;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.buttons {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 500px;
+    height: 275px;
+    margin: 10px auto;
+}
+
+.btn {
+    font-size: 20px;
+}
